@@ -1,8 +1,8 @@
 Package: nucband
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Nucleosome banding scores for ATAC-seq datasets
+Version: 0.0.1.0
+Authors@R: person("Anthony", "Aylward", email = "aaylward@eng.ucsd.edu", role = c("aut", "cre"))
+Description: Nucleosome banding scores for ATAC-seq datasets.
 Depends: R (>= 3.4.0)
 License: What license is it under?
 Encoding: UTF-8
