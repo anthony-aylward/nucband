@@ -8,7 +8,7 @@ See [this doc](https://ms.mcmaster.ca/~bolker/eeid/2010/Ecology/Spectral.pdf) fo
 ## Installation
 
 ```
-libarary(devtools)
+library(devtools)
 install_github("anthony-aylward/nucband")
 ```
 
