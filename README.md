@@ -17,5 +17,6 @@ install_github("anthony-aylward/nucband")
 Assuming `insert_size` is an integer vector of insert sizes:
 
 ```
+library(nucband)
 log(nucleosome_banding_score(insert_size_density(insert_size)))
 ```
