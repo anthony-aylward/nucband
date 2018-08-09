@@ -15,7 +15,7 @@
 insert_size_density <- function(insert_size) {
   hist(
     insert_size[insert_size <= 1e3],
-    breaks = seq(0.5, 1000.5, 1),
+    breaks = seq(-0.5, 1000.5, 1),
     plot = FALSE
   )[["density"]]
 }
