@@ -35,6 +35,6 @@ nucleosome_banding_score <- function(insert_size_density) {
     plot = FALSE,
     fast = TRUE
   )
-  period <-  1 / periodogram[["freq"]]
+  period <- 1 / periodogram[["freq"]]
   sum(periodogram[["spec"]][period >= 100 & period <= 300])
 }
