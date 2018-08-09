@@ -16,9 +16,8 @@ insert_size_density <- function(insert_size) {
   hist(
     insert_size[insert_size <= 1e3],
     breaks = seq(0.5, 1000.5, 1),
-    freq = FALSE,
     plot = FALSE
-  )[["counts"]]
+  )[["density"]]
 }
 
 #' @title Compute the nucleosome banding score for an insert size density
